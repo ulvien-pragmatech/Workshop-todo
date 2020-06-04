@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo app</title>
+</head>
+
+<body>
+    <h1>Todo App</h1>
+    <!-- <button id="displayBtn">Display All</button>
+    <button id="toggleAllBtn">Toggle All</button> -->
+
+    <div>
+        <button onclick="handlers.displayBtn()">Display All</button>
+        <button onclick="handlers.toggleAllBtn()">Toggle All</button>
+    </div>
+
+    <div>
+        <button onclick="handlers.addText()">Add</button>
+        <input type="text" id="addTextInput">
+    </div>
+
+    <div>
+        <button onclick="handlers.changeToDo()">Change</button>
+        <input type="number" id="changePositionInput">
+        <input type="text" id="changeTextInput">
+    </div>
+
+    <div>
+        <button onclick="handlers.deleteToDo()">Delete</button>
+        <input type="number" id="deletePosition">
+    </div>
+
+
+    <div>
+        <button onclick="handlers.toggleCompleted()">Toggle Completed</button>
+        <input type="number" id="toggleCompletedPositionInput">
+    </div>
+
+    <ul></ul>
+</body>
+
+<script src="script.js"></script>
+
+</html>
